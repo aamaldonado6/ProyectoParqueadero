@@ -1,7 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd2f53a5-130e-454d-85a7-4556b505f63c" name="Default Changelist" comment="" />
+    <list default="true" id="cd2f53a5-130e-454d-85a7-4556b505f63c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InIngreso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InValidar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/login/BusquedaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/solicitud/SolicitudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/cd7399c5-ce7c-49a8-897b-18ab10fcf24f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/cd7399c5-ce7c-49a8-897b-18ab10fcf24f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sparkjava_spark_core_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sparkjava_spark_template_freemarker_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/appweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginUsuarioPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/LoginJpaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/MainWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/IllegalOrphanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/NonexistentEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/PreexistingEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/addusuario.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/hola.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/loging.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/noingreso.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/test/java/CrearCuentaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/test/java/IngresoCuentaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/appweb-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/META-INF/appweb.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Administrador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginUsuarioPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/UsuarioPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/LoginJpaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/UsuariodbJpaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/AdministradorEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/sssssss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuenta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuenta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/MainWeb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/IllegalOrphanException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/NonexistentEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/PreexistingEntityException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/addusuario.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/hola.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/loging.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/noingreso.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Rolesdb_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Usuariodb_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/modelo/Usuarios_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/CrearCuentaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/IngresoCuentaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/META-INF/appweb.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Espacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Establecimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Estacionamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Pago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Tarifa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inEstablecimiento/InEstablecimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/EstablecimientoPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/LoginPersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/LoginUsuarioPersistence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/RegistroPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/UsuarioPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/UsuarioPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/JpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/LoginUsuarioJpaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/UsuariodbJpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/UsuariodbJpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/IllegalOrphanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/NonexistentEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/PreexistingEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/AdministradorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/AdministradorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EmpleadoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EspacioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstablecimientoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstacionamientoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/PagoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/SolicitudEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/TarifaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/sssssss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/CrearCuenta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/IngresoUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Espacio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Establecimiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Estacionamiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Pago.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Solicitud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Tarifa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inEstablecimiento/InEstablecimiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InRegistro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/EstablecimientoPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/LoginPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/LoginUsuarioPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/RegistroPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/UsuarioPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/JpaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/LoginUsuarioJpaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/UsuariodbJpaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/IllegalOrphanException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/NonexistentEntityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/PreexistingEntityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/AdministradorEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EmpleadoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EspacioEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstablecimientoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstacionamientoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/PagoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/SolicitudEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/TarifaEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/UsuarioEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/CrearCuenta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/IngresoUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/persistence/entities/Rolesdb_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Rolesdb_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/persistence/entities/Usuariodb_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Usuariodb_.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,20 +306,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="estacionamiento: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="estacionamiento@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="estacionamiento: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="empleado: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="estacionamiento@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="estacionamiento: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="usuario: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -63,6 +321,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -71,26 +332,30 @@
     </option>
   </component>
   <component name="ProjectId" id="1TqHuBZIv6P2lqYJqRcFO0onD4i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;com.mysql.cj.jdbc.Driver" />
+    <property name="DatabaseDriversLRU" value="com.mysql.cj.jdbc.Driver&#10;mysql" />
     <property name="JPA.DatabaseSchemaImportDialog" value="411e0fbc-b1a5-42c6-95bb-5f75fd8f935e" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GithubRespaldo/Proyecto_Aplicaciones2/TestJPA" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demoSpring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.41149426" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -98,98 +363,71 @@
       <recent name="com.mycompany.persistence" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
       <recent name="ec.com.edu.utpl.arq.proyecto.persistence.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\Downloads\appweb\src\main\java\com\mycompany\appLogin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrearCuenta">
-    <configuration name="ConsultaEstacionamiento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.com.edu.utpl.arq.proyecto.webMain.ConsultaEstacionamiento" />
+  <component name="RunManager" selected="JUnit.IngresoCuentaTest.probarEstablecimiento">
+    <configuration name="CrearCuentaTest.probarCrearCuentaEmpleado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.com.edu.utpl.arq.proyecto.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrearCuentaTest" />
+      <option name="METHOD_NAME" value="probarCrearCuentaEmpleado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearCuenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.com.edu.utpl.arq.proyecto.webMain.CrearCuenta" />
+    <configuration name="CrearCuentaTest.probarCrearCuentaEstablecimiento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.com.edu.utpl.arq.proyecto.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrearCuentaTest" />
+      <option name="METHOD_NAME" value="probarCrearCuentaEstablecimiento" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoFreeMarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.webMain.DemoFreeMarker" />
+    <configuration name="IngresoCuentaTest.probarEstablecimiento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IngresoCuentaTest" />
+      <option name="METHOD_NAME" value="probarEstablecimiento" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IngresoUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.com.edu.utpl.arq.proyecto.webMain.IngresoUsuario" />
+    <configuration name="IngresoCuentaTest.probarIngresoEmpleado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.com.edu.utpl.arq.proyecto.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IngresoCuentaTest" />
+      <option name="METHOD_NAME" value="probarIngresoEmpleado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.webMain.MainWeb" />
+    <configuration name="IngresoCuentaTest.probarIngresoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ec.com.edu.utpl.arq.proyecto.webMain.MainWeb" />
-      <module name="appweb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ec.com.edu.utpl.arq.proyecto.webMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IngresoCuentaTest" />
+      <option name="METHOD_NAME" value="probarIngresoUsuario" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CrearCuenta" />
-        <item itemvalue="Application.ConsultaEstacionamiento" />
-        <item itemvalue="Application.IngresoUsuario" />
-        <item itemvalue="Application.MainWeb" />
-        <item itemvalue="Application.DemoFreeMarker" />
+        <item itemvalue="JUnit.IngresoCuentaTest.probarEstablecimiento" />
+        <item itemvalue="JUnit.IngresoCuentaTest.probarIngresoEmpleado" />
+        <item itemvalue="JUnit.IngresoCuentaTest.probarIngresoUsuario" />
+        <item itemvalue="JUnit.CrearCuentaTest.probarCrearCuentaEstablecimiento" />
+        <item itemvalue="JUnit.CrearCuentaTest.probarCrearCuentaEmpleado" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +483,15 @@
       <workItem from="1576764276262" duration="4736000" />
       <workItem from="1576769469920" duration="492000" />
       <workItem from="1577416739384" duration="2096000" />
+      <workItem from="1578062316806" duration="196000" />
+      <workItem from="1578372980822" duration="455000" />
+      <workItem from="1578373858057" duration="4366000" />
+      <workItem from="1578403075641" duration="7816000" />
+      <workItem from="1578715071506" duration="589000" />
+      <workItem from="1578787931800" duration="3949000" />
+      <workItem from="1578854128807" duration="32154000" />
+      <workItem from="1578958874135" duration="4331000" />
+      <workItem from="1578975935073" duration="3608000" />
     </task>
     <servers />
   </component>
@@ -264,110 +511,130 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1576363722405" />
-    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576364414878">
+    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578884083082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576364414878" />
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1577424578523">
+    <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578884083082" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578285957082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577424578523" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1578285957082" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1578981785070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578981785070" />
     <state x="412" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576364044923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1576364044923" />
-    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1576643137474">
+    <state x="313" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578811819999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1576643137474" />
+    <state x="313" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578811819999" />
+    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1578812499368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578812499368" />
     <state x="392" y="115" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1576368771567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="115" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1576368771567" />
-    <state x="226" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576354693509">
+    <state x="226" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578885738781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="226" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576354693509" />
-    <state x="450" y="222" width="466" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576343099445">
+    <state x="226" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1578885738781" />
+    <state x="450" y="222" width="600" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578879461925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="450" y="222" width="466" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1576343099445" />
+    <state x="450" y="222" width="600" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1578879461925" />
     <state x="479" y="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576354694940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1576354694940" />
-    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577424415415">
+    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578896010698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1577424415415" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577424360249">
+    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1578896010698" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578868670578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577424360249" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578868670578" />
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1576765117935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576765117935" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576767177880">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1578800631535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576767177880" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1576769403234">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578800631535" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578983352481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576769403234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1576769403234">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578983352481" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578983352481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576769403234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1576769403234">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578983352481" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578983352480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576769403234" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1576769403234">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578983352480" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578983352481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576769403234" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576470424784">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578983352481" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578813099916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576470424784" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1576470424784">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578813099916" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1578813099916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576470424784" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1576470424784">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578813099916" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1578813099916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576470424784" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1576470424784">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578813099916" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1578813099916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576470424784" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578813099916" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1576767282699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1576767282699" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1578800428520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578800428520" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1576643138575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1576643138575" />
+    <state x="582" y="253" width="326" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578879416570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="253" width="326" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1578879416570" />
+    <state x="263" y="18" key="com.intellij.database.dbimport.ImportDialog" timestamp="1578879409688">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="18" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578879409688" />
     <state x="392" y="4" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1576769724833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="4" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576769724833" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1577417179340">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578976041928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577417179340" />
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578976041927" />
     <state x="65" y="0" key="new project wizard" timestamp="1576596642199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576596642199" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1576767765291">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1578982565273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576767765291" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578982565273" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576769854004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

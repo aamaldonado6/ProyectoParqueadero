@@ -1,9 +1,9 @@
 package ec.com.edu.utpl.arq.proyecto.webMain;
 
-import ec.com.edu.utpl.arq.proyecto.persistence.EstablecimientoPersistence;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EspacioEntity;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EstablecimientoEntity;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EstacionamientoEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.EstablecimientoPersistence;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EspacioEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstablecimientoEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstacionamientoEntity;
 import ec.com.edu.utpl.arq.proyecto.usecase.EstablecimientoUC;
 
 import java.util.List;
@@ -15,7 +15,7 @@ public class ConsultaEstacionamiento {
         EstablecimientoUC objEst = new EstablecimientoUC();
         List<EstablecimientoEntity> listEst= objEst.consultarEstablecimiento(new EstablecimientoPersistence(),qr);
         for (EstablecimientoEntity e: listEst){
-            System.out.println("nombre:"+e.getNombre()+"\nId:"+e.getIdestablecimiento());
+            System.out.println("nombre:"+e.getNombreEstablecimiento()+"\nId:"+e.getIdestablecimiento());
         }
 
 

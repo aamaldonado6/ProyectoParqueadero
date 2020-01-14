@@ -1,9 +1,9 @@
 package ec.com.edu.utpl.arq.proyecto.usecase;
 
-import ec.com.edu.utpl.arq.proyecto.appLogin.interfaces.inEstablecimiento.InEstablecimiento;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EspacioEntity;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EstablecimientoEntity;
-import ec.com.edu.utpl.arq.proyecto.persistence.entities.EstacionamientoEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inEstablecimiento.InEstablecimiento;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EspacioEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstablecimientoEntity;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstacionamientoEntity;
 
 import java.util.List;
 
