@@ -1,6 +1,6 @@
 package ec.com.edu.utpl.arq.proyecto.usecase;
 
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inEstablecimiento.InEstablecimiento;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InConsultar;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EspacioEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstablecimientoEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstacionamientoEntity;
@@ -8,16 +8,16 @@ import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.Estacion
 import java.util.List;
 
 public class EstablecimientoUC {
-    public List<EstablecimientoEntity> consultarEstablecimiento (InEstablecimiento inEst, String qr){
-        List<EstablecimientoEntity> listUs =inEst.iConsultarEstablecimiento(qr);
+    public List<EstablecimientoEntity> consultarEstablecimiento (InConsultar inEst, String qr) throws Exception {
+        List<EstablecimientoEntity> listUs =inEst.iConsultar(qr);
         return listUs;
     }
-    public List<EstacionamientoEntity> consultarEstacionamiento (InEstablecimiento inEst, String qr){
-        List<EstacionamientoEntity> listUs =inEst.iConsultarEstablecimiento(qr);
+    public List<EstacionamientoEntity> consultarEstacionamiento (InConsultar inEst, String qr) throws Exception {
+        List<EstacionamientoEntity> listUs =inEst.iConsultar(qr);
         return listUs;
     }
-    public List<EspacioEntity> consultarEspacio (InEstablecimiento inEst, String qr){
-        List<EspacioEntity> listUs =inEst.iConsultarEstablecimiento(qr);
+    public List<EspacioEntity> consultarEspacio (InConsultar inEst, String qr) throws Exception {
+        List<EspacioEntity> listUs =inEst.iConsultar(qr);
         return listUs;
     }
 }

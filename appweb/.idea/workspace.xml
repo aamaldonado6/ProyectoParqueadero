@@ -2,277 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2f53a5-130e-454d-85a7-4556b505f63c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InIngreso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InValidar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/login/BusquedaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/solicitud/SolicitudController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/cd7399c5-ce7c-49a8-897b-18ab10fcf24f.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/dataSources/cd7399c5-ce7c-49a8-897b-18ab10fcf24f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sparkjava_spark_core_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sparkjava_spark_template_freemarker_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/appweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginUsuarioPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/LoginJpaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/MainWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/IllegalOrphanException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/NonexistentEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/PreexistingEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/addusuario.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/hola.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/loging.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/resources/spark/template/freemarker/noingreso.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/test/java/CrearCuentaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/src/test/java/IngresoCuentaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/appweb-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/META-INF/appweb.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Administrador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginPersistence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/LoginUsuarioPersistence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/UsuarioPersistence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/LoginJpaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/UsuariodbJpaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/AdministradorEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/sssssss.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEmpleado/CobroEspacioUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEmpleado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/ActualizarEstablecimientoUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEmpleadoUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEspacioUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucEstablecimiento/RegistroEstablecimeintoUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuenta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuenta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/MainWeb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/IllegalOrphanException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/NonexistentEntityException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/exceptions/PreexistingEntityException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/addusuario.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/hola.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/loging.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/classes/spark/template/freemarker/noingreso.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Rolesdb_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Usuariodb_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/modelo/Usuarios_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/CrearCuentaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/IngresoCuentaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../respaldo/appweb/target/test-classes/META-INF/appweb.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/411e0fbc-b1a5-42c6-95bb-5f75fd8f935e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_12_v20180830.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/InConsultar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/InRegistro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucUsuario/AnularEspacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucUsuario/MostrarEspacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UsuarioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Espacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Espacio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Establecimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Establecimiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Estacionamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Estacionamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Pago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Pago.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Solicitud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Solicitud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Tarifa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Tarifa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/domain/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/domain/administrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inEstablecimiento/InEstablecimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InRegistro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/EstablecimientoPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/LoginPersistence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/LoginUsuarioPersistence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/RegistroPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/UsuarioPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/UsuarioPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/JpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/JpaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/LoginUsuarioJpaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/UsuariodbJpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/UsuariodbJpaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/IllegalOrphanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/IllegalOrphanException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/NonexistentEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/NonexistentEntityException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/PreexistingEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/controllers/exceptions/PreexistingEntityException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/AdministradorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../respaldo/appweb/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/AdministradorEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EmpleadoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EmpleadoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EspacioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EspacioEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstablecimientoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstablecimientoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstacionamientoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/EstacionamientoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/PagoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/PagoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/SolicitudEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/SolicitudEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/TarifaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/TarifaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/UsuarioEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/persistence/entities/sssssss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InIngreso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/InIngreso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InValidar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/InValidar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ConsultarPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucUsuario/RegistrarEspacioUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/CrearCuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ec/com/edu/utpl/arq/proyecto/webMain/IngresoUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Empleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Espacio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Establecimiento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Estacionamiento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Pago.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Solicitud.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Tarifa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/domain/administrador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inEstablecimiento/InEstablecimiento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appLogin/interfaces/inLogin/InRegistro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/EstablecimientoPersistence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/LoginPersistence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/LoginUsuarioPersistence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/RegistroPersistence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/UsuarioPersistence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/JpaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/LoginUsuarioJpaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/UsuariodbJpaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/IllegalOrphanException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/NonexistentEntityException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/controllers/exceptions/PreexistingEntityException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/AdministradorEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EmpleadoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EspacioEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstablecimientoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/EstacionamientoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/PagoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/SolicitudEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/TarifaEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/persistence/entities/UsuarioEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inEstablecimiento/InEstablecimiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InIngreso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InRegistro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/interfaces/inLogin/InValidar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/EstablecimientoPersistence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/IngresarPersistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/RegistroPersistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/ValidarCuentaPersistence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/EstablecimientoUC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucCliente/RegistrarEspacioUC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/IngresarCuentaUC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/RegistrarCuentaUC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/usecase/ucLogin/ValidarCuentaUC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/ConsultaEstacionamiento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/CrearCuenta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/com/edu/utpl/arq/proyecto/webMain/IngresoUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/persistence/entities/Rolesdb_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Rolesdb_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/persistence/entities/Usuariodb_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/ec/com/edu/utpl/arq/proyecto/appParqueadero/persistence/entities/Usuariodb_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CrearCuentaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CrearCuentaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IngresoCuentaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IngresoCuentaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,8 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -492,6 +257,7 @@
       <workItem from="1578854128807" duration="32154000" />
       <workItem from="1578958874135" duration="4331000" />
       <workItem from="1578975935073" duration="3608000" />
+      <workItem from="1579009059140" duration="2975000" />
     </task>
     <servers />
   </component>
@@ -519,10 +285,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1578285957082" />
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1578981785070">
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1579011575616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578981785070" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579011575616" />
     <state x="412" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576364044923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -555,10 +321,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1578896010698" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578868670578">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579011034376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578868670578" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579011034376" />
     <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1576765117935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -623,14 +389,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="4" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1576769724833" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578976041928">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579009060874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578976041927" />
-    <state x="65" y="0" key="new project wizard" timestamp="1576596642199">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579009060874" />
+    <state x="65" y="0" key="new project wizard" timestamp="1579009092199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1576596642199" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1579009092199" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1578982565273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,13 +1,11 @@
 package ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Empleado;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Establecimiento;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Usuario;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InIngreso;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InIngreso;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.JpaController;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.login.BusquedaController;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EmpleadoEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstablecimientoEntity;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.SolicitudEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.UsuarioEntity;
 
 import java.util.ArrayList;

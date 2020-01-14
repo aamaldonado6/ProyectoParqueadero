@@ -1,4 +1,4 @@
-package ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin;
+package ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces;
 
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Usuario;
 

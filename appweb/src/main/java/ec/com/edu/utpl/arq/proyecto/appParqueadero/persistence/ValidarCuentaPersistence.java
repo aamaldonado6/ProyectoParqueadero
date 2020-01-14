@@ -1,6 +1,6 @@
 package ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence;
 
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InValidar;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InValidar;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.JpaController;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.login.BusquedaController;
 

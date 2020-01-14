@@ -9,8 +9,7 @@ package ec.com.edu.utpl.arq.proyecto.usecase.ucLogin;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Empleado;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Establecimiento;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Usuario;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InIngreso;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InRegistro;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InRegistro;
 
 /**
  *

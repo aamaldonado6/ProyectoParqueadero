@@ -1,6 +1,6 @@
 package ec.com.edu.utpl.arq.proyecto.usecase.ucLogin;
 
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InValidar;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InValidar;
 
 import java.util.List;
 

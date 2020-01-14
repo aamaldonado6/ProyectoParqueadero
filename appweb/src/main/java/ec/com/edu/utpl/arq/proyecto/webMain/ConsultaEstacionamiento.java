@@ -1,6 +1,6 @@
 package ec.com.edu.utpl.arq.proyecto.webMain;
 
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.EstablecimientoPersistence;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.ConsultarPersistence;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EspacioEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstablecimientoEntity;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EstacionamientoEntity;
@@ -9,11 +9,11 @@ import ec.com.edu.utpl.arq.proyecto.usecase.EstablecimientoUC;
 import java.util.List;
 
 public class ConsultaEstacionamiento {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //obtiene el establecimiento
         String qr ="SELECT e FROM EstablecimientoEntity e ";
         EstablecimientoUC objEst = new EstablecimientoUC();
-        List<EstablecimientoEntity> listEst= objEst.consultarEstablecimiento(new EstablecimientoPersistence(),qr);
+        List<EstablecimientoEntity> listEst= objEst.consultarEstablecimiento(new ConsultarPersistence(),qr);
         for (EstablecimientoEntity e: listEst){
             System.out.println("nombre:"+e.getNombreEstablecimiento()+"\nId:"+e.getIdestablecimiento());
         }
@@ -22,7 +22,7 @@ public class ConsultaEstacionamiento {
         //obtiene el estacionamiento segun el establecimiento
         String establecimiento="Garage";
         qr="SELECT e2 From EstablecimientoEntity e INNER JOIN EstacionamientoEntity e2 ON e.idestablecimiento=e2.idEstablecimiento WHERE e.nombre='"+establecimiento+"'";
-        List<EstacionamientoEntity> listEstcio= objEst.consultarEstacionamiento(new EstablecimientoPersistence(),qr);
+        List<EstacionamientoEntity> listEstcio= objEst.consultarEstacionamiento(new ConsultarPersistence(),qr);
         for (EstacionamientoEntity e: listEstcio){
             System.out.println(e.getIdentificacion());
         }
@@ -31,7 +31,7 @@ public class ConsultaEstacionamiento {
         //obtiene los espacios segun el estacionamiento
         String estacionamiento="E1";
         qr="SELECT e2 From EstacionamientoEntity e INNER JOIN EspacioEntity e2 ON e.idestacionamiento=e2.idEstacionamiento WHERE e.identificacion='"+estacionamiento+"'";
-        List<EspacioEntity> listEspacio= objEst.consultarEspacio(new EstablecimientoPersistence(),qr);
+        List<EspacioEntity> listEspacio= objEst.consultarEspacio(new ConsultarPersistence(),qr);
         System.out.println(listEspacio);
         for (EspacioEntity e: listEspacio){
             System.out.println("Estacio numero:"+e.getNumEspacio()+" Estado:"+e.getEstado());

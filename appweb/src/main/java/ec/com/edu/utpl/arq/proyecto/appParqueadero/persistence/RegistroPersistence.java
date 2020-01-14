@@ -3,7 +3,7 @@ package ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Empleado;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Establecimiento;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.domain.Usuario;
-import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.inLogin.InRegistro;
+import ec.com.edu.utpl.arq.proyecto.appParqueadero.interfaces.InRegistro;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.JpaController;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.controllers.login.RegistroController;
 import ec.com.edu.utpl.arq.proyecto.appParqueadero.persistence.entities.EmpleadoEntity;
